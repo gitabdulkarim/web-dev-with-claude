@@ -343,3 +343,9 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
