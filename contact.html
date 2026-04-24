@@ -1,32 +1,65 @@
-<section class="contact-section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - AI Web Studio</title>
 
-  <div class="contact-container">
+  <!-- CSS LINK (CRITICAL) -->
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
 
-    <!-- LEFT -->
-    <div class="contact-info">
-      <h1>Let’s Talk</h1>
-      <p>Have a project in mind? Let’s build something powerful together.</p>
+<body>
 
-      <div class="info-box">
-        <p><strong>Email:</strong> contact@aiwebstudio.com</p>
-        <p><strong>Phone:</strong> +91 98100 98100</p>
-        <p><strong>Location:</strong> India</p>
+  <!-- NAVBAR -->
+  <nav>
+    <h2>AI Web Studio</h2>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+
+    <div class="contact-container">
+
+      <!-- LEFT -->
+      <div class="contact-info">
+        <h1>Let’s Talk</h1>
+        <p>Have a project in mind? Let’s build something powerful together.</p>
+
+        <div class="info-box">
+          <p><strong>Email:</strong> contact@aiwebstudio.com</p>
+          <p><strong>Phone:</strong> +91 98100 98100</p>
+          <p><strong>Location:</strong> India</p>
+        </div>
       </div>
+
+      <!-- RIGHT -->
+      <div class="contact-form">
+        <form id="contactForm" class="form-stack">
+
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+      </div>
+
     </div>
 
-    <!-- RIGHT -->
-    <div class="contact-form">
-      <form id="contactForm" class="form-stack">
+  </section>
 
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 AI Web Studio. All rights reserved.</p>
+  </footer>
 
-        <button type="submit">Send Message</button>
-
-      </form>
-    </div>
-
-  </div>
-
-</section>
+</body>
+</html>
