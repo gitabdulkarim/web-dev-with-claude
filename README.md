@@ -68,6 +68,14 @@ Claude was used in this project for:
 
 ---
 
+I am actively developing web projects using AI assistance. This repository contains a fully functional multi-page business website built using HTML, CSS, and JavaScript.
+
+The project demonstrates practical usage of Claude for frontend development, UI design improvements, and debugging. It includes structured code, multiple pages, and a live deployed version.
+
+I plan to use Claude further to enhance development efficiency, build scalable web solutions, and improve overall code quality.
+
+---
+
 ## 📬 Contact
 
 For collaboration or inquiries:  
